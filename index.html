@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexeAgent - Modern Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Nexe<span>Agent</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact" class="btn-nav">Get Started</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-particles"></div>
+        <div class="hero-content">
+            <div class="hero-badge">🚀 Welcome to the Future</div>
+            <h1 class="hero-title">
+                Build Something<br>
+                <span class="gradient-text">Extraordinary</span>
+            </h1>
+            <p class="hero-subtitle">
+                We empower businesses with cutting-edge technology solutions. 
+                Transform your ideas into reality with our innovative platform.
+            </p>
+            <div class="hero-actions">
+                <a href="#features" class="btn-primary">
+                    Explore Features <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#testimonials" class="btn-secondary">
+                    <i class="fas fa-play"></i> Watch Demo
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number" data-count="500">0</div>+
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <div class="stat-number" data-count="1200">0</div>+
+                    <div class="stat-label">Projects Done</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <div class="stat-number" data-count="98">0</div>%
+                    <div class="stat-label">Satisfaction</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="hero-image-wrapper">
+                <div class="floating-card card-1">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Analytics</span>
+                </div>
+                <div class="floating-card card-2">
+                    <i class="fas fa-code"></i>
+                    <span>Development</span>
+                </div>
+                <div class="floating-card card-3">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Security</span>
+                </div>
+                <div class="hero-graphic">
+                    <svg viewBox="0 0 400 400" class="hero-svg">
+                        <defs>
+                            <linearGradient id="heroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#ec4899;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#f9a8d4;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <circle cx="200" cy="200" r="150" fill="none" stroke="url(#heroGrad)" stroke-width="2" opacity="0.3"/>
+                        <circle cx="200" cy="200" r="120" fill="none" stroke="url(#heroGrad)" stroke-width="1.5" opacity="0.5"/>
+                        <circle cx="200" cy="200" r="90" fill="none" stroke="url(#heroGrad)" stroke-width="1" opacity="0.7"/>
+                        <circle cx="200" cy="200" r="60" fill="none" stroke="url(#heroGrad)" stroke-width="1.5" opacity="0.9"/>
+                        <circle cx="200" cy="200" r="30" fill="url(#heroGrad)" opacity="0.2"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Features</span>
+                <h2 class="section-title">Why Choose <span class="gradient-text">NexeAgent</span></h2>
+                <p class="section-subtitle">Powerful features designed to help you succeed in the digital landscape.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Lightning Fast</h3>
+                    <p>Optimized for speed and performance. Our solutions are built to deliver results in milliseconds.</p>
+                    <div class="feature-glow"></div>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Enterprise Security</h3>
+                    <p>Bank-grade encryption and security protocols. Your data is always protected and secure.</p>
+                    <div class="feature-glow"></div>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-expand-arrows-alt"></i>
+                    </div>
+                    <h3>Scalable Architecture</h3>
+                    <p>Grow without limits. Our platform scales seamlessly from startup to enterprise level.</p>
+                    <div class="feature-glow"></div>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Easy Integration</h3>
+                    <p>Connect with your existing tools and workflows effortlessly through our API.</p>
+                    <div class="feature-glow"></div>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <h3>Advanced Analytics</h3>
+                    <p>Real-time insights and reporting to help you make informed, data-driven decisions.</p>
+                    <div class="feature-glow"></div>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Our dedicated support team is always ready to help you succeed at any hour.</p>
+                    <div class="feature-glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Testimonials</span>
+                <h2 class="section-title">What Our <span class="gradient-text">Clients Say</span></h2>
+                <p class="section-subtitle">Don't just take our word for it — hear from the people we've helped.</p>
+            </div>
+            <div class="testimonials-slider" id="testSlider">
+                <div class="testimonial-card active">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="testimonial-text">"NexeAgent transformed our business operations completely. The platform's intuitive design and powerful features helped us increase productivity by 300%."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://i.pravatar.cc/100?img=1" alt="Sarah Chen">
+                        </div>
+                        <div class="author-info">
+                            <h4>Sarah Chen</h4>
+                            <span>CEO, TechFlow Inc.</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="testimonial-text">"The security features are top-notch. We handle sensitive data daily, and NexAgent gives us complete peace of mind. Their analytics dashboard is a game-changer."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://i.pravatar.cc/100?img=5" alt="Marcus Webb">
+                        </div>
+                        <div class="author-info">
+                            <h4>Marcus Webb</h4>
+                            <span>CTO, DataShield Corp.</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="testimonial-text">"Scaling our infrastructure was seamless. The support team went above and beyond to ensure our migration was smooth. Absolutely incredible platform!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://i.pravatar.cc/100?img=9" alt="Elena Rodriguez">
+                        </div>
+                        <div class="author-info">
+                            <h4>Elena Rodriguez</h4>
+                            <span>VP Engineering, CloudScale</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="testimonial-text">"Integration was incredibly simple. We got everything up and running within a day. The ROI has been phenomenal — we've saved both time and resources significantly."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <img src="https://i.pravatar.cc/100?img=12" alt="James Park">
+                        </div>
+                        <div class="author-info">
+                            <h4>James Park</h4>
+                            <span>Founder, InnovateAI</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="test-btn" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+                <div class="test-dots" id="testDots"></div>
+                <button class="test-btn" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="cta-content">
+            <h2>Ready to Transform Your <span class="gradient-text">Business?</span></h2>
+            <p>Join thousands of companies already using NexAgent to power their digital transformation.</p>
+            <div class="cta-actions">
+                <a href="#contact" class="btn-primary btn-large">Get Started Free</a>
+                <a href="#" class="btn-secondary btn-large">Contact Sales</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">Nexe<span>Agent</span></a>
+                    <p>Empowering businesses with modern technology solutions for the future.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Integrations</a></li>
+                        <li><a href="#">Changelog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press Kit</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">API Reference</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> nexeagent@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> 03222100121</p>
+                        <p><i class="fab fa-linkedin"></i> LinkedIn: Nexe-Agent</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 NexAgent. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top -->
+    <button class="back-to-top" id="backToTop"><i class="fas fa-chevron-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
